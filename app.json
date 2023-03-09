@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "StickerSmash",
-    "slug": "StickerSmash",
-    "version": "1.0.0",
+    "name": "Jarvis Store Admin",
+    "slug": "jarvis-store-admin",
+    "version": "2.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/loading_jstore.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gusindra.jarvisstoreadmin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1df18ad-bd11-4041-bbe9-98f16a911beb"
+      }
+    },
+    "owner": "gusindra"
   }
 }
